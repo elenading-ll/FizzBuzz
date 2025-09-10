@@ -18,4 +18,8 @@ public class Multiples {
         System.out.println(sum);
         return sum;
     }
+
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
 }
